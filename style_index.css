@@ -20,7 +20,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 1400px;
+    /* height: 1400px; */
 }
 
 
@@ -29,14 +29,14 @@ body {
     align-content: center;
     align-items: center;
     align-self: center;
-    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-columns: repeat(6, 1fr); */
     grid-gap: 10px;
-    grid-auto-rows: 150px;
-    grid-template-areas: 
+    /* grid-auto-rows: 150px; */
+    /* grid-template-areas: 
       "a a b b"
       "a a b b"
       "c c d d"
-      "c c d d";
+      "c c d d"; */
     align-items: start;
   }
   .item1 {
