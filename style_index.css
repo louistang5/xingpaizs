@@ -1,0 +1,154 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: beige;
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 320px;
+    max-width: 1024px;
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1400px;
+}
+
+
+
+
+#posters {
+    list-style-type: none;
+    display: block;
+    width: 90%;
+}
+#posters img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+#posters img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+
+#logan img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#ghost img {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+#strange img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+#pass img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+#max img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+#swiss img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/*configues the navigation area*/
+.header {
+    overflow: hidden;
+    background-color: lavender;
+    font-family: Book Antiqua;
+}
+#logo {
+    float: left;
+    padding-left: 10px;
+    padding: 0 10px 0 10px;
+} 
+#logo {
+    font-size: 25px;
+    font-style: italic;
+    font-family: Book Antiqua;
+}
+.header a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    font-family: Book Antiqua;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: lavender;
+}
+#logo:hover {
+    background-color: inherit;
+}
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: orange;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/*footer area*/
+.footer {
+    padding: 10px;
+    background-color: lavender;
+    font-family: Book Antiqua;
+}
